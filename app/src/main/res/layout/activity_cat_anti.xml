@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatAnti">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cat Anti Air Tersedia:"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Drop"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/rbAdrop"
+                />
+
+            <ImageView
+                android:layout_width="219dp"
+                android:layout_height="239dp"
+                android:src="@drawable/anti"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welproof"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/rbAwel"
+                />
+
+            <ImageView
+                android:layout_width="224dp"
+                android:layout_height="273dp"
+                android:src="@drawable/antii"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aquaproof"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/rbAproof"
+                />
+
+            <ImageView
+                android:layout_width="224dp"
+                android:layout_height="273dp"
+                android:src="@drawable/antiii"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Seal"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/rbAtop"
+                />
+
+            <ImageView
+                android:layout_width="224dp"
+                android:layout_height="273dp"
+                android:src="@drawable/antiiii"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dulux"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/rbAdulux"
+                />
+
+            <ImageView
+                android:layout_width="224dp"
+                android:layout_height="273dp"
+                android:src="@drawable/antiiiii" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

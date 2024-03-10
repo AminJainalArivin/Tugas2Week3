@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailTembok">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Produk"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nippon Paint"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tembok"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.80.000.00"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis: Spot-less "
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat : 1 Kilogram "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masa Pakai: 5-10 Tahun"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kegunaan dan Keistimewaan: Cat Anti-Noda, Noda Cair Tidak Menempel pada Dinding dengan Stain Guard Technology, Warna selalu terlihat baru dengan Colour Protect Technology, Tidak Berbau dan Aman untuk Keluarga, Water-Based, Tampilan Akhir Low Sheen, Cocok Digunakan di Interior untuk Melindungi Dinding dari Noda."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnDetT1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dulux"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tembokk"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.80.000.00"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis: Catylac Interior Glow "
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat : 1 Kilogram "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masa Pakai: 5-10 Tahun"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kegunaan dan Keistimewaan: Cat Anti-Noda, Noda Cair Tidak Menempel pada Dinding dengan Stain Guard Technology, Warna selalu terlihat baru dengan Colour Protect Technology, Tidak Berbau dan Aman untuk Keluarga, Water-Based, Tampilan Akhir Low Sheen, Cocok Digunakan di Interior untuk Melindungi Dinding dari Noda."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnDetT2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dulux"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tembokkk"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.80.000.00"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis: Easy Clean "
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat : 1 Kilogram "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masa Pakai: 5-10 Tahun"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kegunaan dan Keistimewaan: Cat Anti-Noda, Noda Cair Tidak Menempel pada Dinding dengan Stain Guard Technology, Warna selalu terlihat baru dengan Colour Protect Technology, Tidak Berbau dan Aman untuk Keluarga, Water-Based, Tampilan Akhir Low Sheen, Cocok Digunakan di Interior untuk Melindungi Dinding dari Noda."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnDetT3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avitex"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tembokkkk"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.85.000.00"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis: Cat Tembok "
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat : 1 Kilogram "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masa Pakai: 5-10 Tahun"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kegunaan dan Keistimewaan: Cat Anti-Noda, Noda Cair Tidak Menempel pada Dinding dengan Stain Guard Technology, Warna selalu terlihat baru dengan Colour Protect Technology, Tidak Berbau dan Aman untuk Keluarga, Water-Based, Tampilan Akhir Low Sheen, Cocok Digunakan di Interior untuk Melindungi Dinding dari Noda."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnDetT4"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nippon Paint"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tembokkkkk"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.120.000.00"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis: Vinilex "
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat : 1 Kilogram "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masa Pakai: 5-10 Tahun"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kegunaan dan Keistimewaan: Cat Anti-Noda, Noda Cair Tidak Menempel pada Dinding dengan Stain Guard Technology, Warna selalu terlihat baru dengan Colour Protect Technology, Tidak Berbau dan Aman untuk Keluarga, Water-Based, Tampilan Akhir Low Sheen, Cocok Digunakan di Interior untuk Melindungi Dinding dari Noda."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnDetT5"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
